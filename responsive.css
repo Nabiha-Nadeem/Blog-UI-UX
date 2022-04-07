@@ -1,0 +1,573 @@
+/* ------ DEFAULT STYLING ------ */
+@media screen and (max-width: 767px)
+{
+    #gradient
+    {
+        background: black !important;
+    }
+    .center > h1
+    {
+        text-align: center !important;
+        font-size: 6vw !important;
+    }
+    .block-padding
+    {
+        margin: 0 !important;
+        padding: 50px 5px 60px !important;
+    }
+    h1
+    {
+        font-size: 6vw !important;
+    }
+    p
+    {
+        font-size: 3vw !important;
+    }
+    .center > p
+    {
+        text-align: center;
+        margin: 2px 2px;
+    }
+    h2
+    {
+        font-size: 4vw !important;
+    }
+    .bg-change
+    {
+        margin-right: 0px!important;
+        margin-left: 0px !important;
+    }
+    h3
+    {
+        font-size: 3.5vw !important;
+    }
+}
+@media screen and (min-width:767px) and  (max-width: 1200px)
+{
+    h1
+    {
+        font-size: 4vw !important;
+    }
+    p
+    {
+        font-size: 2vw !important;
+    }
+    .center > p
+    {
+        text-align: center;
+        margin: 2px 2px;
+    }
+    .center > h1
+    {
+        text-align: center !important;
+        font-size: 4vw !important;
+    }
+    .block-padding
+    {
+        margin: 0 !important;
+        padding: 100px 50px 60px !important;
+    }
+    h2
+    {
+        font-size: 2.5vw !important;
+    }
+    h3
+    {
+        font-size: 2.25vw !important;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1800px)
+{
+    h1
+    {
+        font-size: 2vw !important;
+    }
+    p
+    {
+        font-size: 1.25vw !important;
+    }
+    .block-padding
+    {
+        margin: 0 !important;
+        padding: 100px 110px 60px !important;
+    }
+    .center > p
+    {
+        text-align: center;
+        margin: 20px 320px;
+    }
+    .center > h1
+    {
+        text-align: center !important;
+        font-size: 2vw !important;
+    }
+    h2
+    {
+        font-size: 1.5vw !important;
+    }
+    h3
+    {
+        font-size: 1.75vw !important;
+    }
+}
+
+/* ------ NAVBAR OF THE PAGE ------ */
+
+
+@media screen and (max-width: 767px) {
+    #nav-bar
+    {
+        padding: 0;
+    }
+    .navbar-brand
+    {
+        margin-left: 10px !important;
+    }
+    .navbar-nav li a
+    {
+        margin: auto !important;
+        font-size: 12pt !important;
+        float: left;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1300px)
+{
+    #nav-bar
+    {
+        padding-top: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-brand
+    {
+        margin-left: 10px !important;
+    }
+    .navbar-nav li a
+    {
+        margin: auto !important;
+        font-size: 12pt !important;
+    }
+}
+
+
+/* INTRODUCTION AREA (GIVEN IN BOX) */
+
+
+@media screen and (max-width: 767px)
+{
+    #intro-box
+    {
+        background: white;
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+        margin: 0 0 auto;
+    }
+    #intro-box-image
+    {
+        clear: bottom;
+        position: relative;
+        width: 100% !important;
+        height: auto;
+        margin-right: 50px;
+        margin-bottom: 30px !important;
+    }
+    .intro-class > h6
+    {
+        margin-top: 30px;
+        font-size: 3vw !important;
+    }
+    .intro-class > ul
+    {
+        margin-left: 0 !important;
+    }
+    .intro-class > h5
+    {
+        font-size: 3vw;
+    }
+    .intro-class > p
+    {
+        font-size: 3vw !important;
+        margin-bottom: 20px;
+    }
+    .intro-class ul > li
+    {
+        font-size: 3vw !important;
+    }
+    .intro-class > h1
+    {
+        font-size: 6vw !important;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1200px)
+{
+    #intro-box
+    {
+        width: 90%;
+        margin: auto;
+    }
+    #intro-box-image
+    {
+        clear: bottom;
+        position: relative;
+        width: 100% !important;
+        height: auto;
+        margin-right: 50px;
+        margin-bottom: 30px !important;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1200px)
+{
+    .intro-class > h6
+    {
+        margin-top: 30px;
+        font-size: 2vw !important;
+    }
+    .intro-class > ul
+    {
+        margin-left: 0 !important;
+    }
+    .intro-class > h5
+    {
+        font-size: 2vw;
+    }
+    .intro-class > p
+    {
+        font-size: 2vw !important;
+        margin-bottom: 20px;
+    }
+    .intro-class ul > li
+    {
+        font-size: 2vw !important;
+    }
+    .intro-class > h1
+    {
+        font-size: 4vw !important;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1350px)
+{
+    #intro-box-image
+    {
+        width: 60% !important;
+        height: auto;
+        margin-right: 70px;
+        margin-bottom: 30px !important;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1800px)
+{
+    #intro-box-image
+    {
+        margin-right: 8vw;
+    }
+    .intro-class > h6
+    {
+        font-size: 1.25vw;
+        margin-top: 1.5vw !important;
+    }
+    .intro-class > h5
+    {
+        font-size: 1.25vw;
+    }
+    .intro-class > p
+    {
+        font-size: 1.25vw !important;
+    }
+    .intro-class ul > li
+    {
+        font-size: 1.25vw !important;
+    }
+    .intro-class > h1
+    {
+        font-size: 3.5vw !important;
+    }
+    .intro-class > button
+    {
+        margin-bottom: 1.5vw !important;
+    }
+}
+
+/* ------ ABOUT MYSELF SECTION ------ */
+
+@media screen and (max-width: 1200px)
+{
+    .column-about-myself {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .skill-bar
+    {
+        margin-left: 0 !important;
+    }
+    div.skills
+    {
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .box-information-box
+    {
+        width: 100% !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        margin-top: 30px !important;
+    }
+    .about-block
+    {
+        padding: 25px !important;
+        margin: 100px auto 70px !important;
+    }
+    p.about-myself-block
+    {
+        margin-top: 20px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        font-size: 3vw !important;
+    }
+    p.skills
+    {
+        font-size: 3vw !important;
+    }
+    .box-information-box > i
+    {
+        font-size: 4vw;
+    }
+    .box-information-box > h4
+    {
+        font-size: 4vw !important;
+    }
+}
+@media screen and (min-width:767px) and  (max-width: 1200px)
+{
+    .box-information-box
+    {
+        width: 28% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 4vh !important;
+        padding-left: 10px !important;
+    }
+    .about-block
+    {
+        padding: 50px !important;
+        margin: 100px auto 70px !important;
+    }
+    p.about-myself-block
+    {
+        margin-top: 20px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        font-size: 2vw !important;
+    }
+    p.skills
+    {
+        font-size: 2vw !important;
+    }
+    .box-information-box > i
+    {
+        font-size: 2vw;
+    }
+    .box-information-box > h4
+    {
+        font-size: 3vw !important;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1800px)
+{
+    .column-about-myself
+    {
+        float: none !important;
+        width: 50% !important;
+    }
+    p.about-myself-block
+    {
+        margin-top: 20px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        font-size: 1.25vw !important;
+    }
+    p.skills
+    {
+        font-size: 1.25vw !important;
+    }
+    .box-information-box > i
+    {
+        font-size: 1.75vw;
+    }
+    .box-information-box > h4
+    {
+        font-size: 2vw !important;
+    }
+    .box-information-box
+    {
+        width: 28% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 4vh !important;
+        padding-left: 10px !important;
+    }
+}
+
+
+/* ------ OFFERINGS SECTION ------ */
+
+
+@media screen and (max-width: 767px)
+{
+    .offerings-box
+    {
+        float: none !important;
+        width: 100%;
+        padding: 60px 40px 50px;
+        margin: 30px 20px 30px !important;
+    }
+    .offerings-box:first-child
+    {
+        margin-top: 50px !important;
+    }
+    .offerings-box > i
+    {
+        font-size: 50pt;
+    }
+}
+@media screen and (min-width:767px) and  (max-width: 1200px)
+{
+    .offerings-box
+    {
+        float: none !important;
+        width: 28% !important;
+        padding: 40px 10px 30px;
+        margin: 50px auto 10px !important;
+        overflow: hidden;
+    }
+    .offerings-box > i
+    {
+        font-size: 6vw;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1800px)
+{
+    .offerings-box
+    {
+        float: none !important;
+        width: 28% !important;
+        padding: 40px 10px 30px;
+        margin: 30px auto 30px !important;
+        overflow: hidden;
+    }
+    .offerings-box > i
+    {
+        font-size: 4vw;
+    }
+}
+
+
+/* ------ FEATURED PRODUCTS SECTION ------ */
+
+
+@media screen and (max-width: 767px)
+{
+    .Ul-div ul
+    {
+        padding: 5px !important;
+    }
+    .Ul-div  ul > li
+    {
+        padding: 50px 15px 10px;
+    }
+    .Picture-Div > p
+    {
+        padding-top: 0;
+    }
+    .Picture-Div > h6
+    {
+        padding: 10px 20px 0;
+    }
+}
+
+
+/* ------ TESTIMONIALS SECTION ------ */
+
+
+@media screen and (max-width: 767px)
+{
+    .testimonials-box
+    {
+        width: 100%;
+        margin: 20px 20px 0 !important;
+        padding: 40px 30px;
+        display: none;
+    }
+    .testimonials-box:first-child
+    {
+        margin-top: 50px !important;
+        display: block;
+    }
+}
+@media screen and (min-width:767px) and  (max-width: 1800px)
+{
+    .testimonials-box
+    {
+        width: 26%;
+        margin: 60px auto 0 !important;
+        padding: 40px 10px;
+    }
+}
+
+
+/* ------ FOOTER OF THE PAGE ------ */
+
+
+@media screen and (max-width: 1800px)
+{
+    footer
+    {
+        padding: 100px 0 90px 0 !important;
+    }
+    .footer-class
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .col-md-4
+    {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-bottom: 30px !important;
+    }
+    .col-md-4:first-child
+    {
+        margin-bottom: 5px !important;
+    }
+    .col-md-2
+    {
+        margin-top: 0px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .footer-elem > p
+    {
+        margin-bottom: 5px !important;
+        padding-bottom: 0 !important;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .footer-class
+    {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width:767px) and  (max-width: 1800px)
+{
+    .footer-class
+    {
+        margin-right: 0 !important;
+        margin-left: 6vw;
+    }
+}

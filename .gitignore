@@ -1,0 +1,20 @@
+# Ignoring these local files
+/personal.webp
+/project-1.webp
+/project-2.webp
+/project-3.webp
+/project-4.jpg.webp
+/project-5.webp
+/project-6.webp
+
+# Default ignored files
+/.idea/
+/shelf/
+/workspace.xml
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml

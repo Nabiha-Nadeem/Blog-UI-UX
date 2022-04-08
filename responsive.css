@@ -5,6 +5,10 @@
     {
         background: black !important;
     }
+    .row {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
     .center > h1
     {
         text-align: center !important;
@@ -44,6 +48,9 @@
 }
 @media screen and (min-width:767px) and  (max-width: 1200px)
 {
+    .row {
+        margin-right: 0 !important;
+    }
     h1
     {
         font-size: 4vw !important;
@@ -78,6 +85,9 @@
 }
 @media screen and (min-width: 1200px) and (max-width: 1800px)
 {
+    .row {
+        margin-right: 0 !important;
+    }
     h1
     {
         font-size: 2vw !important;
@@ -169,7 +179,7 @@
         position: relative;
         width: 100% !important;
         height: auto;
-        margin-right: 50px;
+        margin-right: 0 !important;
         margin-bottom: 30px !important;
     }
     .intro-class > h6
@@ -212,7 +222,7 @@
         position: relative;
         width: 100% !important;
         height: auto;
-        margin-right: 50px;
+        margin-right: 0 !important;
         margin-bottom: 30px !important;
     }
 }
@@ -251,7 +261,7 @@
     {
         width: 60% !important;
         height: auto;
-        margin-right: 70px;
+        margin-right: 70px !important;
         margin-bottom: 30px !important;
     }
 }
@@ -421,9 +431,9 @@
     .offerings-box
     {
         float: none !important;
-        width: 100%;
+        width: 90% !important;
         padding: 60px 40px 50px;
-        margin: 30px 20px 30px !important;
+        margin: 30px 19px !important;
     }
     .offerings-box:first-child
     {
@@ -442,7 +452,6 @@
         width: 28% !important;
         padding: 40px 10px 30px;
         margin: 50px auto 10px !important;
-        overflow: hidden;
     }
     .offerings-box > i
     {
@@ -457,7 +466,6 @@
         width: 28% !important;
         padding: 40px 10px 30px;
         margin: 30px auto 30px !important;
-        overflow: hidden;
     }
     .offerings-box > i
     {
@@ -497,8 +505,8 @@
 {
     .testimonials-box
     {
-        width: 100%;
-        margin: 20px 20px 0 !important;
+        width: 90%;
+        margin: 20px 19px 0 !important;
         padding: 40px 30px;
         display: none;
     }
